@@ -1,0 +1,31 @@
+{
+    "startup_app": {
+        "name": "OpenfinPOC",
+        "url": "http://localhost:5555/index.html",
+        "uuid": "OpenfinPOC",
+        "applicationIcon": "http://localhost:5555/favicon.ico",
+        "autoShow": true,
+        "saveWindowState": true,
+        "permissions": {
+            "System": {
+                "launchExternalProcess": true,
+                "terminateExternalProcess": true,
+                "downloadAsset": true
+            }
+        }
+    },
+    "appAssets": [
+        {
+            "src": "http://localhost:5555/FindOffenders.exe.zip",
+            "alias": "find-offenders",
+            "target": "FindOffenders.exe",
+            "version": "0.1.0",
+            "mandatory": true
+        }
+    ],
+    "runtime": {
+        "arguments": "",
+        "version": "16.83.53.27"
+    },
+    "shortcut": {}
+}
